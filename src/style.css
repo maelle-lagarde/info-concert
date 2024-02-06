@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+.wrapper {
+  padding: 100px 40px 100px 40px;
+}
+
 h1 {
   text-align: center;
   padding-top: 20px;
@@ -103,6 +107,7 @@ p.artist-style {
 /* NAV */
 
 .nav {
+  background-color: #242424;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -111,6 +116,7 @@ p.artist-style {
   padding: 20px 150px 20px 150px;
   border-bottom: 1px solid #555257;
   position: fixed;
+  z-index: 1000;
 }
 
 ul {
@@ -152,7 +158,6 @@ img#logo-nav {
 /* FOOTER */
 
 .footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 80%;
