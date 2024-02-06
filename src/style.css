@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-
+#root {
+  width: 100%;
+  margin: 0;
+}
 
 body {
   font-family: 'Space Grotesk', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -143,10 +149,14 @@ img#logo-nav {
 /* FOOTER */
 
 .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 20px 80px 30px 80px;
+  padding: 20px 80px 20px 80px;
   border-top: 1px solid #555257;
 }
 
@@ -187,4 +197,15 @@ img#logo-nav {
 
 .links-footer a:hover {
   color: #515151;
+}
+
+/* ERROR PAGE */
+
+#error-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
 }

@@ -19,7 +19,7 @@ export default function Footer () {
             
             
             <div className="copyright">
-                <p>© 2023 Info Concert Tous droits réservés.</p>
+                <p>© 2024 Info Concert Tous droits réservés.</p>
                 <a href="#"><button>contact</button></a>
             </div>
         </div>

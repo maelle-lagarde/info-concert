@@ -1,4 +1,3 @@
-import '../App.css';
 import Artiste from '../components/Artiste';
 import demujaImage from '../img/demuja.png';
 import kerriImage from '../img/kerri-chandler.png';
@@ -6,6 +5,7 @@ import jeffImage from '../img/jeff-mills.png';
 import frankieImage from '../img/frankie-knuckles.png';
 import hoodImage from '../img/robert-hood.png';
 import mikeBanksImage from '../img/mike-banks.png';
+import '../style.css';
 
 export default function ArtistPage() {
 
