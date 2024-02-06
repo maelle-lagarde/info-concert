@@ -12,6 +12,7 @@ import LocationPage from './pages/LocationPage';
 import EventPage from './pages/EventPage';
 import './index.css';
 import './style.css';
+import HomePage from './pages/HomePage';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path: "/accueil",
+        element: <HomePage />,
+      },
+      {
         path: "/artistes",
         element: <ArtistPage />,
       },
@@ -35,8 +40,8 @@ const router = createBrowserRouter([
       {
         path: "/concerts",
         element: <EventPage />,
-      }
-    ]
+      },
+    ],
   },
 ]);
 

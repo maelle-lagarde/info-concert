@@ -2,7 +2,7 @@
 
 #root {
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 body {
@@ -42,10 +42,6 @@ p {
 
 img {
   width: 40%;
-}
-
-.wrapper {
-  margin: 20px 100px 20px 100px;
 }
 
 /* PAGE ARTISTES */
@@ -92,7 +88,7 @@ img {
 
 #url-button:hover {
   background-color: #292839;
-  border: none;
+  border: 1px solid #555257;
 }
 
 p.artist-style {
@@ -105,8 +101,9 @@ p.artist-style {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 80%;
   align-items: center;
-  padding: 20px 80px 20px 80px;
+  padding: 20px 150px 20px 150px;
   border-bottom: 1px solid #555257;
 }
 
@@ -152,11 +149,11 @@ img#logo-nav {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 20px 80px 20px 80px;
+  padding: 20px 150px 20px 150px;
   border-top: 1px solid #555257;
 }
 
@@ -199,6 +196,10 @@ img#logo-nav {
   color: #515151;
 }
 
+img#logo-footer {
+  width: 8%;
+}
+
 /* ERROR PAGE */
 
 #error-page {
@@ -208,4 +209,10 @@ img#logo-nav {
   flex-direction: column;
   height: 100vh;
   margin: 0;
+}
+
+#detail {
+  flex: 1;
+  padding: 2rem 4rem;
+  width: 100%;
 }

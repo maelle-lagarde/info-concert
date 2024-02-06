@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import logo from '../img/logo.svg';
 
 export default function Nav() {
   return (
-    <div>
+    <>
       <div className="nav">
         <img id="logo-nav" src={logo} alt="logo" />
 
@@ -22,6 +22,9 @@ export default function Nav() {
           <button id="register">inscription</button>
         </div>
       </div>
-    </div>
+      <div id="detail">
+        <Outlet />
+      </div>
+    </>
   );
 }
