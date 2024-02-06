@@ -12,6 +12,11 @@ body {
   padding: 0;
 }
 
+#detail {
+  padding: 2rem 6rem 2rem 6rem;
+  width: 100%;
+}
+
 h1 {
   text-align: center;
   padding-top: 20px;
@@ -209,10 +214,4 @@ img#logo-footer {
   flex-direction: column;
   height: 100vh;
   margin: 0;
-}
-
-#detail {
-  flex: 1;
-  padding: 2rem 4rem;
-  width: 100%;
 }
