@@ -110,6 +110,7 @@ p.artist-style {
   align-items: center;
   padding: 20px 150px 20px 150px;
   border-bottom: 1px solid #555257;
+  position: fixed;
 }
 
 ul {
