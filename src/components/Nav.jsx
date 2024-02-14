@@ -10,7 +10,7 @@ export default function Nav() {
 
         <div className="links-menu">
           <ul>
-            <li><Link to={`/`}>accueil</Link></li>
+            <li><Link to={`/accueil`}>accueil</Link></li>
             <li><Link to={`/artistes`}>artistes</Link></li>
             <li><Link to={`/lieux`}>lieux</Link></li>
             <li><Link to={`/concerts`}>concerts</Link></li>

@@ -14,6 +14,7 @@ import './index.css';
 import './style.css';
 import HomePage from './pages/HomePage';
 import TodolistPage from './pages/TodolistPage';
+import EditTask from './components/EditTask';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,6 @@ const router = createBrowserRouter([
     element: (
       <>
         <Nav />
-        <HomePage />
         <Footer />
       </>
     ), 
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/accueil",
-        element: <HomePage />,
+        element: <EditTask />,
       },
       {
         path: "/artistes",
