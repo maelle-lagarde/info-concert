@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
-#root {
-  width: 100%;
-  margin: 0 auto;
-}
 
 body {
   font-family: 'Space Grotesk', sans-serif;
@@ -18,7 +14,10 @@ body {
 }
 
 .wrapper {
-  padding: 100px 40px 100px 40px;
+  /* padding: 100px 40px 100px 40px; */
+  padding: 100px 0 100px 0;
+  margin: 0 auto;
+  max-width: 90rem;
 }
 
 h1 {
@@ -111,7 +110,8 @@ p.artist-style {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
+  max-width: 90rem;
   align-items: center;
   padding: 20px 150px 20px 150px;
   border-bottom: 1px solid #555257;
@@ -160,7 +160,8 @@ img#logo-nav {
 .footer {
   bottom: 0;
   left: 0;
-  width: 80%;
+  width: 100%;
+  max-width: 90rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

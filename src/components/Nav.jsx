@@ -14,6 +14,7 @@ export default function Nav() {
             <li><Link to={`/artistes`}>artistes</Link></li>
             <li><Link to={`/lieux`}>lieux</Link></li>
             <li><Link to={`/concerts`}>concerts</Link></li>
+            <li><Link to={`/todolist`}>to do list</Link></li>
           </ul>
         </div>
 

@@ -13,6 +13,7 @@ import EventPage from './pages/EventPage';
 import './index.css';
 import './style.css';
 import HomePage from './pages/HomePage';
+import TodolistPage from './pages/TodolistPage';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
     element: (
       <>
         <Nav />
+        <HomePage />
         <Footer />
       </>
     ), 
@@ -40,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/concerts",
         element: <EventPage />,
+      },
+      {
+        path: "/todolist",
+        element: <TodolistPage />,
       },
     ],
   },

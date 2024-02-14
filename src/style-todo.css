@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#detail {
+  padding: 2rem 6rem 2rem 6rem;
+  width: 100%;
+}
+
+.wrapper {
+  /* padding: 100px 40px 100px 40px; */
+  padding: 100px 0 100px 0;
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
+  color: white;
+}
+
+.TodoWrapper {
+  padding: 100px 0 100px 0;
+  margin: 0 auto;
+  max-width: 90rem;
+  border: 1px solid #5F5F5F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TodoForm {
+  margin: 0 auto;
+  max-width: 90rem;
+}
+
+.todo-input {
+  outline: none;
+  background: #616161;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 520px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.add-task-btn {
+  background: #A238FF;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.add-task-btn:hover {
+  background: #8822BF;
+}
+
+.todo-btn {
+  background: #A238FF;
+  color: #fff;
+  font-size: 12px;
+  border: none;
+  padding: 0.2rem 0.8rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.todo-btn:hover {
+  background: #8822BF;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1E1E1E;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border: 1px solid #616161;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  width: 600px;
+}
+
+li.Todo {
+  margin: 0 0 1rem 0 !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+ul.task-list {
+  padding: 0 !important;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #c5aeff;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon, .delete-icon {
+  cursor: pointer;
+}
