@@ -11,6 +11,7 @@ body {
 #detail {
   padding: 2rem 6rem 2rem 6rem;
   width: 100%;
+  background-color: #242424;
 }
 
 .wrapper {
@@ -24,6 +25,7 @@ h1 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: white;
 }
 
 h2 {
@@ -167,6 +169,7 @@ img#logo-nav {
   justify-content: space-around;
   padding: 20px 150px 20px 150px;
   border-top: 1px solid #555257;
+  background-color: #242424;
 }
 
 .row-footer {
