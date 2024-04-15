@@ -23,7 +23,7 @@ export default function Nav() {
           <button id="register">inscription</button>
         </div>
       </div>
-      <div id="detail">
+      <div className="wrapper">
         <Outlet />
       </div>
     </>

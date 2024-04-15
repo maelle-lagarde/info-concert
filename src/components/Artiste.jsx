@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Artiste ({ name, presentation, style, src, alt, url }) {
     return (
-        <div>
+        <div className="artist">
             <h3>{name}</h3>
             <p>{presentation}</p>
             <p class="artist-style">Genre : {style}</p>

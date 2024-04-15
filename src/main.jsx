@@ -4,17 +4,16 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import './index.css';
+import './style.css';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import ErrorPage from './error-page';
 import ArtistPage from './pages/ArtistPage';
 import LocationPage from './pages/LocationPage';
 import EventPage from './pages/EventPage';
-import './index.css';
-import './style.css';
 import HomePage from './pages/HomePage';
 import TodolistPage from './pages/TodolistPage';
-import EditTask from './components/EditTask';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/accueil",
-        element: <EditTask />,
+        element: <HomePage />,
       },
       {
         path: "/artistes",

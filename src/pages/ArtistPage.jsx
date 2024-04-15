@@ -11,7 +11,6 @@ export default function ArtistPage() {
 
   return (
     <>
-      <div className='wrapper'>
         <h1>Nos artistes</h1>
           <main className="artist-container">
             <div className="artist-card">
@@ -100,7 +99,6 @@ export default function ArtistPage() {
               </div>
         
             </main>
-      </div>
     </>
   )
 }
